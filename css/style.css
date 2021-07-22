@@ -754,6 +754,10 @@ background-image: url("../svg/001-pinterest.svg");
   width: 100%;
 }
 
+.form-popup-hint {
+  display: block; 
+}
+
 .popup-field {
   background-color: #f3f7f6;
   border: none;
@@ -784,8 +788,10 @@ background-image: url("../svg/001-pinterest.svg");
 }
 
 .popup-radio {
-  margin-top: 5px;
+  margin-top: 8px;
+  display: inline-block;
 }
+
 .radio {
   position: absolute;
   clip:rect(1px,1px,1px,1px);
@@ -958,11 +964,6 @@ background-image: url("../svg/001-pinterest.svg");
     margin-right: 20px;
   }
   
-  .product-img {
-    
-    
-  }
-
   .product-info-title {
     font-size: 17px;
   }
@@ -1027,6 +1028,7 @@ background-image: url("../svg/001-pinterest.svg");
 
 .trend-info {
   padding: 10px;
+  margin: 10px;
 }
 
 }
